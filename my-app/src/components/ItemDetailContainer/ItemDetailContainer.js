@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { getData } from "../../mocks/fakeApi";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import PacmanLoader from "react-spinners/PacmanLoader"
@@ -22,3 +22,5 @@ function ItemDetailContainer () {
     )
 
 }
+
+export default ItemDetailContainer

@@ -4,7 +4,6 @@ import Header from "./components/Header/Header"
 import NavBar from "./components/Navbar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
-
 const App = () => {
   return (
 
